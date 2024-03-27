@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    image: fahadramzan/mlopsimage2
+    image: fahadramzan/mlopsimage2-web
     ports:
       - "8500:8000" #For backend server (express)
       - "3500:3000" #For frontend
