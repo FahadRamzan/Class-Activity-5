@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    image: theplagiarizers/ca4-web
+    image: fahadramzan/mlopsimage2
     ports:
       - "8500:8000" #For backend server (express)
       - "3500:3000" #For frontend
